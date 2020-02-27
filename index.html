@@ -1,95 +1,246 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146062371-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-146062371-1');
-  </script>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="API Geek, Googler, Biker, Traveller.">
-  <title>SeanDavis | LaughingBiscuit</title>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-
-
-
-  <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
-        <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="css/layouts/side-menu.css">
-  <!--<![endif]-->
-</head>
-
-<body>
-
-  <div id="layout">
-    <!-- Menu toggle -->
-    <a href="#menu" id="menuLink" class="menu-link">
-      <!-- Hamburger icon -->
-      <span></span>
-    </a>
-
-    <div id="menu">
-      <div class="pure-menu">
-        <a class="pure-menu-heading" href="#">
-          <img class="logo" style="width:40%;" src="./logo.jpg" alt="LaughingBiscuit">
-        </a>
-        <ul class="pure-menu-list">
-          <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
-          <li class="pure-menu-item"><a href="https://github.com/laughingbiscuit" class="pure-menu-link">GitHub</a></li>
-
-          <li class="pure-menu-item"><a href="https://uk.linkedin.com/in/sean-davis-b064a763" class="pure-menu-link">LinkedIn</a></li>
-          <li class="pure-menu-item"><a href="https://reddit.com/u/laughingbiscuit" class="pure-menu-link">Reddit</a></li>
-        </ul>
-      </div>
+<html>
+  <head>
+    <title>LaughingBiscuit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  </head>
+  <body>
+    <div id="header" style="text-align:center;">
+    <h1>Laughing Biscuit</h1>
+    <img style="height:auto;width:20%" alt="Logo" src="./logo-transparent.png"/>
+    <p><code>echo "A place for suckless, minimal, portable stuff"</code></p>
     </div>
-
-    <div id="main">
-      <div class="header">
-        <img class="logo" style="width:25%;" src="./logo-transparent.png" alt="LaughingBiscuit">
-        <!--h1>Page Title</h1-->
-        <h1>LaughingBiscuit</h1>
-      </div>
-
-      <div class="content">
-        <h2 class="content-subhead">Coding</h2>
-        <p>
-          Here are some of my popular projects:
-          <ul>
-            <li><a href="https://github.com/apigee/openbank">Apigee Reference Bank</a> - An reference implementation of Open Banking/PSD2 APIs with Apigee</li>
-            <li><a href="https://github.com/apigee/docker-apigee-drupal-kickstart">Apigee Drupal 8 Kickstart</a> - A single command to spin up a Drupal 8 Developer Portal</li>
-            <li><a href="https://github.com/laughingbiscuit/lbdk/tree/master/examples/apigee-aio-gcp">Apigee AIO</a> - Apigee Single Node install on GCP</li>
-            <li><a href="https://github.com/laughingbiscuit/lbdk/tree/master/examples/gcp-rdp-linux">GCP RDP</a> - Setting up a Debian instance with a Desktop Environment to RDP into</li>
-            <li><a href="/apigee-cheatsheet">Apigee Cheatsheets</a> - A collection of my notes... <i>in progress</i></li>
-          </ul>
-
-          You can also take a look at my development environment <a href="https://github.com/laughingbiscuit/lbdk">here</a>
-        </p>
-
-        <h2 class="content-subhead">Travelling</h2>
-        <img src="http://chart.apis.google.com/chart?cht=map:fixed=-70,-180,80,180&chs=600x400&chf=bg,s,336699&chco=d0d0d0,cc0000,undefined&chd=s:9999999999999999999999999999999999999999999999999999999999999999999999999999999&chld=KE|ZA|US|AS|UM|GU|MP|PR|VI|KH|IL|PQ|JO|TH|AE|VN|AU|NZ|AD|AT|BE|BG|HR|CZ|DK|FO|GL|FR|PF|NC|BL|MF|PM|WF|TF|GF|GP|YT|MQ|RE|DE|HU|IE|LV|IT|LI|LT|LU|MC|NL|AW|CW|SX|BQ|PT|RO|RU|RS|SK|SI|ES|SE|CH|GB|AI|BM|IO|KY|FK|GI|MS|SH|TC|GG|IM|JE|PN|GS|VG" class="pure-img-responsive" alt="How many countries I have been to. Visited Countries Map Maker"><br />Visited 39 UN countries (20.2%) out of 193.<br /><small>Make your own <a target="_blank" title="visited countries map" href="http://www.joaoleitao.com/resources/visited-countries-map/">visited countries map</a>.</small>
-
-        <h2 class="content-subhead">Biking</h2>
-        <p>When I'm not at my keyboard, I am usually biking. Take a look at my latest trip on <a href="https://symmetricbruises.com">Symmetric Bruises</a>.</p>
-
-        <img src="/bike.jpg" alt="Scrambler" class="pure-img-responsive">
-      </div>
+    <hr/>
+    <div id="rules">
+      <h2>Principles</h2>
+      <ul>
+        <li>Self documenting, simple code for knowledgable users.</li>
+        <li>Make things as small as possible. There is less room for error.</li>
+        <li>Code is king, automate everything. CLI over UI.</li>
+        <li>Run it anywhere... at home, work or while travelling.</li>
+      </ul>
     </div>
-  </div>
+    <hr/>
+    <div id="coding">
+      <h2>Coding</h2>
+      Here are some of my popular projects:
+      <ul>
+        <li><a href="https://github.com/apigee/openbank">Apigee Reference Bank</a></li>
+        <li><a href="https://github.com/laughingbiscuit/lbdk">Development Environment</a></li>
+      </ul>
+    </div>
+    <hr/>
+    <div id="biking">
+      <h2>Biking</h2>
+      <p>Want to learn about my biking history or long road trips? <a href="https://symmetricbruises.com">Symmetric Bruises!</a></p>
+    </div>
+    <hr/>
+    <div id="travel">
+      <h2>Travel</h2>
 
-  <script src="js/ui.js"></script>
+<!-- copy + pasted from amcharts -->
+<script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<div id="mapdiv" style="width: 1000px; height: 450px;"></div>
+<div style="width: 1000px; font-size: 70%; padding: 5px 0; text-align: center; background-color: #535364; margin-top: 1px; color: #B4B4B7;"><a href="https://www.amcharts.com/visited_countries/" style="color: #B4B4B7;">Create your own visited countries map</a> or check out the <a href="https://www.amcharts.com/" style="color: #B4B4B7;">JavaScript Charts</a>.</div>
+<script type="text/javascript">
+var map = AmCharts.makeChart("mapdiv",{
+type: "map",
+theme: "dark",
+projection: "mercator",
+panEventsEnabled : true,
+backgroundColor : "#535364",
+backgroundAlpha : 1,
+zoomControl: {
+zoomControlEnabled : true
+},
+dataProvider : {
+map : "worldHigh",
+getAreasFromMap : true,
+areas :
+[
+	{
+		"id": "AD",
+		"showAsSelected": true
+	},
+	{
+		"id": "AT",
+		"showAsSelected": true
+	},
+	{
+		"id": "BE",
+		"showAsSelected": true
+	},
+	{
+		"id": "BG",
+		"showAsSelected": true
+	},
+	{
+		"id": "HR",
+		"showAsSelected": true
+	},
+	{
+		"id": "CZ",
+		"showAsSelected": true
+	},
+	{
+		"id": "DK",
+		"showAsSelected": true
+	},
+	{
+		"id": "FR",
+		"showAsSelected": true
+	},
+	{
+		"id": "DE",
+		"showAsSelected": true
+	},
+	{
+		"id": "HU",
+		"showAsSelected": true
+	},
+	{
+		"id": "IE",
+		"showAsSelected": true
+	},
+	{
+		"id": "IT",
+		"showAsSelected": true
+	},
+	{
+		"id": "JE",
+		"showAsSelected": true
+	},
+	{
+		"id": "LV",
+		"showAsSelected": true
+	},
+	{
+		"id": "LI",
+		"showAsSelected": true
+	},
+	{
+		"id": "LT",
+		"showAsSelected": true
+	},
+	{
+		"id": "LU",
+		"showAsSelected": true
+	},
+	{
+		"id": "MC",
+		"showAsSelected": true
+	},
+	{
+		"id": "NL",
+		"showAsSelected": true
+	},
+	{
+		"id": "PT",
+		"showAsSelected": true
+	},
+	{
+		"id": "RO",
+		"showAsSelected": true
+	},
+	{
+		"id": "RU",
+		"showAsSelected": true
+	},
+	{
+		"id": "RS",
+		"showAsSelected": true
+	},
+	{
+		"id": "SK",
+		"showAsSelected": true
+	},
+	{
+		"id": "SI",
+		"showAsSelected": true
+	},
+	{
+		"id": "ES",
+		"showAsSelected": true
+	},
+	{
+		"id": "SE",
+		"showAsSelected": true
+	},
+	{
+		"id": "CH",
+		"showAsSelected": true
+	},
+	{
+		"id": "GB",
+		"showAsSelected": true
+	},
+	{
+		"id": "US",
+		"showAsSelected": true
+	},
+	{
+		"id": "KE",
+		"showAsSelected": true
+	},
+	{
+		"id": "ZA",
+		"showAsSelected": true
+	},
+	{
+		"id": "KH",
+		"showAsSelected": true
+	},
+	{
+		"id": "IN",
+		"showAsSelected": true
+	},
+	{
+		"id": "IL",
+		"showAsSelected": true
+	},
+	{
+		"id": "JO",
+		"showAsSelected": true
+	},
+	{
+		"id": "AE",
+		"showAsSelected": true
+	},
+	{
+		"id": "VN",
+		"showAsSelected": true
+	},
+	{
+		"id": "AU",
+		"showAsSelected": true
+	},
+	{
+		"id": "NZ",
+		"showAsSelected": true
+	}
+]
+},
+areasSettings : {
+autoZoom : true,
+color : "#B4B4B7",
+colorSolid : "#84ADE9",
+selectedColor : "#84ADE9",
+outlineColor : "#666666",
+rollOverColor : "#9EC2F7",
+rollOverOutlineColor : "#000000"
+}
+});
+</script>
+<!-- end copy + paste from am chart -->
 
-</body>
 
+    </div>
+    <div id="contact" style="text-align:center;">
+      <h2>Contact</h2>
+        <a href="https://github.com/laughingbiscuit">GitHub</a><br/>
+        <a href="https://example.com">IRC</a><br/>
+        <a href="https://reddit.com/u/laughingbiscuit">Reddit</a><br/>
+    </div>
+  </body>
 </html>
