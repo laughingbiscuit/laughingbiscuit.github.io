@@ -6,22 +6,30 @@
   <body>
     <div id="header" style="text-align:center;">
     <h1>Laughing Biscuit</h1>
-    <img style="height:auto;width:20%" alt="Logo" src="./logo-transparent.png"/>
-    <p><code>echo "A place for suckless, minimal, portable stuff"</code></p>
+    <img style="height:auto;width:20%" alt="Logo" src="https://avatars0.githubusercontent.com/u/43555662?s=400&u=b22a016fc8049f6df3421fad19faa068110af777&v=4"/>
+    <p><code>echo "A place for suckless, scriptable, portable stuff"</code></p>
     </div>
     <hr/>
     <div id="rules">
       <h2>Principles</h2>
       <ul>
-        <li>Self documenting, simple code for knowledgable users.</li>
-        <li>Make things as small as possible. There is less room for error.</li>
-        <li>Code is king, automate everything. CLI over UI.</li>
-        <li>Run it anywhere... at home, work or while travelling.</li>
+        <li><b>Suckless</b> - Self documenting, clean code for knowledgable users.</li>
+        <li><b>Scriptable</b> - Code is king, automate everything. CLI over UI. Reuse.</li>
+        <li><b>Portable</b> - Run it anywhere... home, work or travelling... raspberry pi, laptop or server</li>
       </ul>
     </div>
     <hr/>
     <div id="coding">
       <h2>Coding</h2>
+
+      Environment:
+      <ul>
+        <li>Alpine Linux</li>
+        <li>Busybox</li>
+        <li>Raspberry Pi, Termux, Docker</li>
+        <li>Google Cloud</li>
+      </ul>
+
       Here are some of my popular projects:
       <ul>
         <li><a href="https://github.com/apigee/openbank">Apigee Reference Bank</a></li>
@@ -37,203 +45,7 @@
     <div id="travel">
       <h2>Travel</h2>
 
-<!-- copy + pasted from amcharts -->
-<script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
-<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
-<script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
-<div id="mapdiv" style="width: 100%; height: auto;"></div>
-<div style="font-size: 70%; padding: 5px 0; text-align: center; background-color: #535364; margin-top: 1px; color: #B4B4B7;"><a href="https://www.amcharts.com/visited_countries/" style="color: #B4B4B7;">Create your own visited countries map</a> or check out the <a href="https://www.amcharts.com/" style="color: #B4B4B7;">JavaScript Charts</a>.</div>
-<script type="text/javascript">
-var map = AmCharts.makeChart("mapdiv",{
-type: "map",
-theme: "dark",
-projection: "mercator",
-panEventsEnabled : true,
-backgroundColor : "#535364",
-backgroundAlpha : 1,
-zoomControl: {
-zoomControlEnabled : true
-},
-dataProvider : {
-map : "worldHigh",
-getAreasFromMap : true,
-areas :
-[
-	{
-		"id": "AD",
-		"showAsSelected": true
-	},
-	{
-		"id": "AT",
-		"showAsSelected": true
-	},
-	{
-		"id": "BE",
-		"showAsSelected": true
-	},
-	{
-		"id": "BG",
-		"showAsSelected": true
-	},
-	{
-		"id": "HR",
-		"showAsSelected": true
-	},
-	{
-		"id": "CZ",
-		"showAsSelected": true
-	},
-	{
-		"id": "DK",
-		"showAsSelected": true
-	},
-	{
-		"id": "FR",
-		"showAsSelected": true
-	},
-	{
-		"id": "DE",
-		"showAsSelected": true
-	},
-	{
-		"id": "HU",
-		"showAsSelected": true
-	},
-	{
-		"id": "IE",
-		"showAsSelected": true
-	},
-	{
-		"id": "IT",
-		"showAsSelected": true
-	},
-	{
-		"id": "JE",
-		"showAsSelected": true
-	},
-	{
-		"id": "LV",
-		"showAsSelected": true
-	},
-	{
-		"id": "LI",
-		"showAsSelected": true
-	},
-	{
-		"id": "LT",
-		"showAsSelected": true
-	},
-	{
-		"id": "LU",
-		"showAsSelected": true
-	},
-	{
-		"id": "MC",
-		"showAsSelected": true
-	},
-	{
-		"id": "NL",
-		"showAsSelected": true
-	},
-	{
-		"id": "PT",
-		"showAsSelected": true
-	},
-	{
-		"id": "RO",
-		"showAsSelected": true
-	},
-	{
-		"id": "RU",
-		"showAsSelected": true
-	},
-	{
-		"id": "RS",
-		"showAsSelected": true
-	},
-	{
-		"id": "SK",
-		"showAsSelected": true
-	},
-	{
-		"id": "SI",
-		"showAsSelected": true
-	},
-	{
-		"id": "ES",
-		"showAsSelected": true
-	},
-	{
-		"id": "SE",
-		"showAsSelected": true
-	},
-	{
-		"id": "CH",
-		"showAsSelected": true
-	},
-	{
-		"id": "GB",
-		"showAsSelected": true
-	},
-	{
-		"id": "US",
-		"showAsSelected": true
-	},
-	{
-		"id": "KE",
-		"showAsSelected": true
-	},
-	{
-		"id": "ZA",
-		"showAsSelected": true
-	},
-	{
-		"id": "KH",
-		"showAsSelected": true
-	},
-	{
-		"id": "IN",
-		"showAsSelected": true
-	},
-	{
-		"id": "IL",
-		"showAsSelected": true
-	},
-	{
-		"id": "JO",
-		"showAsSelected": true
-	},
-	{
-		"id": "AE",
-		"showAsSelected": true
-	},
-	{
-		"id": "VN",
-		"showAsSelected": true
-	},
-	{
-		"id": "AU",
-		"showAsSelected": true
-	},
-	{
-		"id": "NZ",
-		"showAsSelected": true
-	}
-]
-},
-areasSettings : {
-autoZoom : true,
-color : "#B4B4B7",
-colorSolid : "#84ADE9",
-selectedColor : "#84ADE9",
-outlineColor : "#666666",
-rollOverColor : "#9EC2F7",
-rollOverOutlineColor : "#000000"
-}
-});
-</script>
-<!-- end copy + paste from am chart -->
-
+      <img src="http://chart.apis.google.com/chart?cht=map:fixed=-70,-180,80,180&chs=600x400&chf=bg,s,336699&chco=d0d0d0,cc0000,undefined&chd=s:9999999999999999999999999999999999999999999999999999999999999999999999999999999&chld=KE|ZA|US|AS|UM|GU|MP|PR|VI|KH|IL|PQ|JO|TH|AE|VN|AU|NZ|AD|AT|BE|BG|HR|CZ|DK|FO|GL|FR|PF|NC|BL|MF|PM|WF|TF|GF|GP|YT|MQ|RE|DE|HU|IE|LV|IT|LI|LT|LU|MC|NL|AW|CW|SX|BQ|PT|RO|RU|RS|SK|SI|ES|SE|CH|GB|AI|BM|IO|KY|FK|GI|MS|SH|TC|GG|IM|JE|PN|GS|VG|IN" class="pure-img-responsive" alt="How many countries I have been to. Visited Countries Map Maker"><br />Visited 39 UN countries (20.2%) out of 193.<br /><small>Make your own <a target="_blank" title="visited countries map" href="http://www.joaoleitao.com/resources/visited-countries-map/">visited countries map</a>.</small>
 
     </div>
     <div id="contact" style="text-align:center;">
