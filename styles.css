@@ -1,5 +1,7 @@
 * {
   font-family: "Lucida Console", Monaco, monospace;
+  padding-left: 5%;
+  padding-right; 5%;
 }
 code {
   font-family: "Courier New", Courier, monospace;
