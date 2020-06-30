@@ -50,6 +50,6 @@ Want to learn about my biking history or long road trips? [Symmetric Bruises](ht
 
 ### Contact
 
-<div class="github-widget" data-username="laughingbiscuit"></div>
+<div class="github-widget" data-username="laughingbiscuit" style="margin: auto"/>
 <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
 
