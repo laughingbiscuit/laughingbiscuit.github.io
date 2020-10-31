@@ -1,6 +1,8 @@
 * {
   font-family: "Lucida Console", Monaco, monospace;
-  background-color: lightgrey
+  background-color: lightgrey;
+  padding-left: 5;
+  padding-right: 5;
 }
 body {
   border-style: dotted;
