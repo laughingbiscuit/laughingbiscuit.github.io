@@ -8,28 +8,34 @@
 
 ## Principles
 
-- *Suckless* - Self documenting, clean code for knowledgable users
-- *Scriptable* - Automate everything - CLI over UI - Reuse
+Write accessible code for anybody to use.
+
+
+- *Suckless* - Self documenting, minimal code
+- *Scriptable* - Encourage Automation - CLIs over UIs - Reuse
 - *Portable* - Run it anywhere
 
 ---
 
-## Coding Environment
+## Working Environment
 
-- Alpine Linux / Busybox
-- Run in Raspberry Pi 4 / Termux / Docker 
-- Google Cloud
+Focusing on mastering a minimal, portable toolset.
 
+
+- *Base* - Anything (Bare Metal inc. Raspberry Pi / VM / Termux / Docker)
+- *OS* - Alpine Linux
+- *Core*-  busybox-extras curl git lastpass-cli tmux
+- *Optional*- chromium docker dwm st
 ---
 
-## Popular Projects
+## Popular Projects / Articles
 
 - [Apigee Reference Bank](https://github.com/apigee/openbank)
 - [Apigee DevRel](https://github.com/apigee/devrel)
 
 ---
 
-## Biking
+## Wheels
 
 Want to learn about my biking history or long road trips? [Symmetric Bruises](https://symmetricbruises.com)!
 
@@ -44,5 +50,5 @@ Want to learn about my biking history or long road trips? [Symmetric Bruises](ht
 
 ## Gaming
 
-<form action="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal" method="post"><input type="submit" value="OSRS Scores"><input type="hidden" name="user1" value="Domnule"/><input type="hidden" name="submit" value="Search"/></form>
+<form action="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal" method="post"><input type="submit" value="OSRS Scores"><input type="hidden" name="user1" value="Domnule"/><input type="hidden" name="submit" value="Search"/></form><form action="https://osrscollectionlog.com/u/laughingbiscuit/log" method="get"><input type="submit" value="OSRS Collection Log"></form><form action="https://alt.org/nethack/player-all.php" method="get"><input type="hidden" name="player" value="laughbiscuit"><input type="hidden" name="style" value="0"><input type="submit" value="Nethack Online"></form>
 

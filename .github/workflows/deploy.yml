@@ -1,0 +1,14 @@
+name: deploy
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: sh build.sh
+    - uses: JamesIves/github-pages-deploy-action@3.7.1
+      with: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: public
+        CLEAN: true 
