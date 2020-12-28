@@ -1,6 +1,6 @@
 # Laughing Biscuit
 
-![Logo](https://laughingbiscuit.com/logo-transparent.png)
+![Logo](logo-transparent.png)
 
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away...
 
@@ -50,5 +50,17 @@ Want to learn about my biking history or long road trips? [Symmetric Bruises](ht
 
 ## Gaming
 
+### OSRS Main
+
+![OSRS](osrs.png)
+
+
+My current goal is 83 Construction, which requires:
+- ~14M GP for Teak Planks
+- Some GP for Butler
+- Dragon Slayer 2 for Cape
+- W/C and Fletching for AFK Income
+- Barrows for Active Income
+ 
 <form action="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal" method="post"><input type="submit" value="OSRS Scores"><input type="hidden" name="user1" value="Domnule"/><input type="hidden" name="submit" value="Search"/></form><form action="https://osrscollectionlog.com/u/laughingbiscuit/log" method="get"><input type="submit" value="OSRS Collection Log"></form><form action="https://alt.org/nethack/player-all.php" method="get"><input type="hidden" name="player" value="laughbiscuit"><input type="hidden" name="style" value="0"><input type="submit" value="Nethack Online"></form>
 
