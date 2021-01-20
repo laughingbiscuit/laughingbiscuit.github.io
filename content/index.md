@@ -70,5 +70,8 @@ ChefUIM - Ultimate Iron Man using Chef Gear. Wooden Spoons, Throwing Knives, Che
 
 Not ascended - probably never will.
 
+
+![Nethack](nethack.png)
+
 <form action="https://alt.org/nethack/player-all.php" method="get"><input type="hidden" name="player" value="laughbiscuit"><input type="hidden" name="style" value="0"><input type="submit" value="Nethack Online"></form>
 
