@@ -3,15 +3,19 @@
   background-color: lightgrey;
   padding-left: 5;
   padding-right: 5;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+pre {
+  white-space: pre-wrap;
 }
 body {
   border-style: dotted;
 }
-code {
-  font-family: "Courier New", Courier, monospace;
-}
 h1 {
   text-align: center;
+}
+h2 {
 }
 img {
   display: block;
