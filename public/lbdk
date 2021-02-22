@@ -1,2 +1,3 @@
 #!/bin/sh
 apk add busybox-extras curl git lastpass-cli nnn tmux
+echo 'export PS1="$ "' > .profile
