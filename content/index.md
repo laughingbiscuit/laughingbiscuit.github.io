@@ -41,6 +41,27 @@ Want to learn about my biking history or long road trips? [Symmetric Bruises](ht
 
 Domnule
 
+On my way to max.
+
+- Cooking - done
+- Fletching - done
+- Smithing - Dart tips, platebodies (to HA)
+- Hunter - Chins, herbiboar
+- Mining - Gem Rocks (with Karamja Hard Diary)
+- Crafting - Superglass make, cutting gems
+- Fishing - AFK at fishing guild
+- Woodcutting - Wintertodt and sulliusceps
+- Agility - Hallowed Sepulchre
+- Thieving - AFK Ardy Knights/Vyres, Pyramid plunder
+- Firemaking - Wintertodt
+- Runecrafting - ZMI and blood runes
+- Farming - Herb runs, tree runs and tithe to speed up progress
+- Prayer - Bones at gilded altar
+- Herblore - whatever is cost effective!
+- Construction - oak larders, oak dungeon doors
+- Magic - HA, Superglass make, combat
+- Combat - Slayer and NMZ
+
 ![OSRS](osrs.png)
  
 <form action="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal" method="post"><input type="submit" value="OSRS Scores"><input type="hidden" name="user1" value="Domnule"/><input type="hidden" name="submit" value="Search"/></form><form action="https://osrscollectionlog.com/u/laughingbiscuit/log" method="get"><input type="submit" value="OSRS Collection Log"></form>
